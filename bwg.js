@@ -9,7 +9,7 @@ const $ = new Env('瓦工🇯🇵流量')
 
 function GetServiceInfo() {
 	const apiKey = ''  //瓦工后台去生成apikey 填进去
-	const veid = ''     //瓦工kvm后台 地址里面的那一串数字
+	const veid = ''     //VPS ID:
 	const body = {
 		'veid': veid,
 		'api_key': apiKey,
